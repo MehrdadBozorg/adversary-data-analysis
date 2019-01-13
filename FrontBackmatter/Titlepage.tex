@@ -1,0 +1,71 @@
+%*******************************************************
+% Titlepage
+%*******************************************************
+\begin{titlepage}
+    \pdfbookmark[1]{\myTitle}{titlepage}
+    % if you want the titlepage to be centered, uncomment and fine-tune the line below (KOMA classes environment)
+    
+    % \begin{comment}
+    % \begin{textblock*}{297mm}(0mm,0mm)
+    %     \includegraphics[width=\paperwidth]{gfx/titlePage}
+    % \end{textblock*}
+    % \phantom{Invisible, but important}
+    % \newpage
+    % \end{comment}
+    
+	\begin{addmargin}[-1cm]{-3cm}
+    \begin{center}
+        \large
+        
+		\begin{flushleft}
+		\includegraphics[width=6cm]{gfx/logo/unilogobonn}
+		\end{flushleft}
+       
+        \vfill
+
+        \begingroup
+            \color{CTtitle}\spacedallcaps{\large \textbf{\myTitle}} \\ \bigskip
+        \endgroup
+        \vfill
+
+        \begingroup
+        \spacedallcaps{ a dissertation presented} \\ \smallskip
+        
+        \spacedallcaps{ by } \\ \smallskip
+        
+        \spacedallcaps{\myName} \\ \smallskip
+        
+        \spacedallcaps{to} \\ \smallskip
+        
+        \spacedallcaps{\large \myDepartment} \\ \vspace{1.5cm}
+        
+        \spacedallcaps{ Supervisors: } \\ \smallskip
+        \spacedallcaps{\myProf}  \\ \smallskip
+        \spacedallcaps{\mySupervisor}
+        
+        \endgroup
+
+        %\spacedlowsmallcaps{\myName}
+
+        \vfill
+
+        \medskip
+
+        \myDegree \\ \medskip
+        \myTime
+
+        \bigskip
+
+        \vfill
+
+	\myUni \\
+        \myDepartment \\
+        \myFaculty \\
+        %\myUni \\
+      %  \includegraphics[width=5cm]{gfx/logos/seemoo_logo} \\
+
+        %\vfill
+
+    \end{center}
+  \end{addmargin}
+\end{titlepage}
